@@ -4,9 +4,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Test HLF
-        uses: arjundashrath/setup-hlf@dev9
-        with:
-          fabric-version: '2.2.1'
+      - name: Setup Hyperledger Fabric
+        uses: arjundashrath/setup-hlf@v0.0.1
       - name: Test functions
         run: ls
