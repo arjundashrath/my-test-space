@@ -9,4 +9,4 @@ jobs:
         with:
           fabric-version: 2.2.1
       - name: Test functions
-        run: ls fabric-samples
+        run: ls
