@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Test HLF
-        uses: arjundashrath/setup-hlf@dev
+        uses: arjundashrath/setup-hlf@dev2
