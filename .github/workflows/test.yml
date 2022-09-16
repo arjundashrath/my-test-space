@@ -6,5 +6,7 @@ jobs:
     steps:
       - name: Test HLF
         uses: arjundashrath/setup-hlf@dev6
+        with:
+          fabric-version: '2.2.1'
       - name: Test functions
         run: ls fabric-samples
