@@ -1,0 +1,8 @@
+name: Testing new release
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test HLF
+        uses: arjundashrath/setup-hlf@dev
