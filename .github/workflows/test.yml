@@ -7,6 +7,6 @@ jobs:
       - name: Test HLF
         uses: arjundashrath/setup-hlf@dev9
         with:
-          fabric-version: '2.4.6'
+          fabric-version: '2.2.1'
       - name: Test functions
         run: ls
