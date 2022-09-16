@@ -5,8 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Test HLF
-        uses: arjundashrath/setup-hlf@dev6
-        #with:
-        #  fabric-version: 2.2.1
+        uses: arjundashrath/setup-hlf@dev7
+        with:
+          fabric-version: 2.2.1
       - name: Test functions
         run: ls
